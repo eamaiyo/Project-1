@@ -71,7 +71,7 @@
 ![VirtualHost-NoSyntaxError](./Images-1/VirtualHost-NoSyntaxError-6.PNG)
 
 `sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/evezidomainlamp/index.html`--(Creating an index.html file in that location so that we can test that the virtual host works as expected - Using Public IP address)
-![VirtualHost-website-Using-PublicIPAd](./Images-1/VirtualHost-website-Using-PublicIPAd-7.PNG)
+![VirtualHost-Website-Using-PublicIPAd](./Images-1/VirtualHost-Website-Using-PublicIPAd-7.PNG)
 
 --(Using DNS Name to launch website - achieving same result Echoing Public DNS name and Public IP address)
 ![VirtualHost-Website-Using-DNSName](./Images-1/VirtualHost-Website-Using-DNSName-8.PNG)
